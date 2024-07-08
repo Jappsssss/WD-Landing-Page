@@ -101,30 +101,32 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease-out;
 }
 
 #nav-div .nav-button:hover {
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.7);
+	letter-spacing: 1px;
 }
 
-#subscribe-button {
+#contact-me {
     background-color: #80ed99;
     color: black;
 	`fvegtgft
     font-size: 14px;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease-out, letter-spacing 0.3s ease-in-out;
     margin-right: 35px;
 }
 
-#subscribe-button:hover {
+#contact-me:hover {
     background-color: none;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+	letter-spacing: 1px;
 }
 
 #main-div {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 10px;	
 }
 
 #sidebar-div {
@@ -160,7 +162,7 @@ body {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.5);
 }
 
 .image-container {
